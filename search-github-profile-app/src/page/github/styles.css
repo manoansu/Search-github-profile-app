@@ -1,0 +1,40 @@
+.github-profile-container{
+    width: 1251px;
+    height: 270px;
+    background: #E6F7FF;
+    border-radius: 16px;
+    margin: 54px 99px 25px 90px;
+    border-radius: 16px;
+}
+
+.github-profile-container h1{
+    width: 502px;
+    height: 46px;
+    font-size: 38px;
+    margin: 54px 25px 1px 30px;
+    padding: 60px 0;
+}
+
+.github-input{
+    width: 298px;
+    height: 45px;
+    margin: 5px 31px 15px 30px;
+    border: 1px solid #D9D9D9;
+    box-sizing: border-box;
+    border-radius: 4px;
+    background: #fff;
+    font-size: 16px;
+    padding-left: 20px;
+    display: flex;
+}
+
+.github-button{
+    width: 160px;
+    height: 45px;
+    font-size: 32px;
+    color: #fff;
+    background: #1890FF;
+    margin: 15px 31px 15px 30px;
+    border-radius: 10px;
+
+}
