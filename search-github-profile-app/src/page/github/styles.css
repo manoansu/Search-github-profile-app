@@ -1,6 +1,6 @@
 .github-profile-container{
     width: 1251px;
-    height: 270px;
+    height: 290px;
     background: #E6F7FF;
     border-radius: 16px;
     margin: 54px 99px 25px 90px;
@@ -36,5 +36,27 @@
     background: #1890FF;
     margin: 15px 31px 15px 30px;
     border-radius: 10px;
+}
 
+.github-profile{
+    width: 1251px;
+    height: 334px;
+    background: #F5F5F5;
+    border-radius: 16px;
+    margin: 54px 99px 25px 0px;
+    border-radius: 16px;
+    display: flex;
+}
+
+.github-image{
+    margin: 40px 38px 43px 79px;
+}
+
+.github-information{
+    padding: 45px 5px 0px 20px;
+}
+
+.github-information h4{
+    color: #1890FF;
+    font-size: 25px;
 }

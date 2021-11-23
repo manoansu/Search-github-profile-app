@@ -1,0 +1,30 @@
+.result-container {
+    background-color: #fff;
+    width: 490px;
+    height: 40px;
+    border-radius: 5px;
+    margin: 10px 31px 0px 0px;
+    display: flex;
+    align-items: center;
+
+}
+
+.result-profile {
+  color: #737373;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 0px 3px 1px 5px;
+}
+
+.result-description {
+  color: #737373;
+  font-size: 14px;
+}
+
+.result-container p{
+  padding: 0px 2px 1px 0px;
+}
+
+.result-container h3{
+  padding: 0px 10px 1px 5px;
+}

@@ -1,19 +1,16 @@
 import './styles.css';
 
 type Props ={
-    perfil: string;
-    seguidores: string;
-    descriptions: string;
-    name: string;
+    title: string;
+    description: string;
+   
 }
-const ResultCard = ( { perfil, descriptions ,seguidores, name }: Props) => {
+const ResultCard = ( { title, description }: Props) => {
 
     return(
         <div className="result-container">
-            <h3 className="result-perfil">{perfil}</h3>
-            <h3 className="result-seguidores">{seguidores}</h3>
-            <h3 className="result-descriptions">{descriptions}</h3>
-            <h3 className="result-name">{name}</h3>
+            <h3 className="result-profile">{title}</h3>
+            <p className="result-description">{description}</p>
         </div>
     );
 };
